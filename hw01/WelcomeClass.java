@@ -1,11 +1,14 @@
 //Benedict Kim
 //hw01
+//1/28/15
 
 //define a class
 public class WelcomeClass{
 
 //main method
   public static void main (String [] args){
+    
+//print statement
       
         System.out.println("  ---------------");
         System.out.println("  |   WELCOME   |");
