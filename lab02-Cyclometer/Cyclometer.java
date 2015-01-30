@@ -5,8 +5,8 @@
 //public class
 public class Cyclometer {
     public static void main(String[] args) {
-        int secTrip1 = 480/60;
-        int secTrip2 = 3220/60;
+        int secTrip1 = 480;
+        int secTrip2 = 3220;
         int countsT1= 1561;
         int countsT2 = 9037;
         double diameter = 27.0;
@@ -20,8 +20,8 @@ public class Cyclometer {
         double total = distanceT2 + distanceT1;
 
 
-        System.out.println("Trip 1 took "+timeTrip1+" and had "+countsT1+" counts ");
-        System.out.println("Trip 2 took "+timeTrip2+" and had "+countsT2+" counts ");
+        System.out.println("Trip 1 took "+timeTrip1+" minutes and had "+countsT1+" counts ");
+        System.out.println("Trip 2 took "+timeTrip2+" minutes and had "+countsT2+" counts ");
         System.out.println("Trip 1 was "+distanceT1+" miles long");
         System.out.println("Trip 2 was "+distanceT2+" miles long");
         System.out.println("The total distance was "+total+" miles");
