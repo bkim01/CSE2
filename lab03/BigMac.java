@@ -21,19 +21,20 @@ public class BigMac {
         
 //Scanner for the tax
         System.out.print("Enter the sales tax as a whole number: ");
-        double tax = myScanner.nextDouble()/100;
+        double tax = myScanner.nextDouble();
+        double tax1 = tax/100;
 
 //find the needed cost
-        double cost = nBigMacs*bigMac$*(1+tax);
+        double cost = nBigMacs*bigMac$*(1+tax1);
         
 //break up the cost so that there will be only two places after the .
         int dollars = (int) cost;
-        int dimes =  (int) (cost*10)%10;
-        int pennies = (int) (cost*100)%100;
-        int change = dimes+pennies;
+        int dimes =  (int) ((cost*10)%10);
+        int pennies = (int) ((cost*100)%10);
+
         
 //print out the needed information
-        System.out.println("The total cost of "+nBigMacs+" BigMacs at $"+bigMac$+" with a tax of "+tax+"% will be $"+dollars+"."+change+"");
+        System.out.println("The total cost of "+nBigMacs+" BigMacs at $"+bigMac$+" with a tax of "+tax+"% will be $"+dollars+"."+dimes+pennies);
         
         
         
