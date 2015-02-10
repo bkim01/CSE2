@@ -19,11 +19,11 @@ public class FourDigits{
         System.out.print("Enter a double: ");
         double x = myScanner.nextDouble();
 //needed formulas        
-        double x1 = x - (int)x;
+        double x1 = x - Math.floor(x);
         double x2 = x1*10000;
-        int x3 = (int)x2;
+       
 //change decimal into needed format        
-        String x4 = df.format(x3);
+        String x4 = df.format(x2);
     
 //print statement        
         System.out.println("The four digits are "+x4+"");
