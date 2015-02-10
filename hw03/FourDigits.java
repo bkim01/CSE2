@@ -2,7 +2,7 @@
 //hw03 FourDigits
 //2/6/15
 
-//scanner has to be imported
+//scanner and decimal format has to be imported
 import java.util.Scanner;
 import java.text.DecimalFormat;
 //class
