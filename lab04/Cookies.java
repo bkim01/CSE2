@@ -36,15 +36,15 @@ public class Cookies{
                 int more = total - cookies;
                 //if inputs are true 
                 if(rem==0 && total<cookies){
-                    System.out.print("You have enough cookies for each person and the amount will divide evenly.");
+                    System.out.println("You have enough cookies for each person and the amount will divide evenly.");
                 } 
                 //if the cookies won't split evenly
             else if(rem!=0 && total<cookies) {
-                    System.out.print("you have enough cookies but it won't split evenly");
+                    System.out.println("you have enough cookies but it won't split evenly");
                 }
                 //checking if you need more cookies
             else if(total>cookies){
-                System.out.print("You don't have enough cookies you need "+more+" more");
+                System.out.println("You don't have enough cookies you need "+more+" more");
                 }
                 
             }
