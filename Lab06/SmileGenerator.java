@@ -1,4 +1,5 @@
 //Benedict Kim
+
 //2/25/15
 //Lab 06 Smile Generator
 
@@ -57,7 +58,7 @@ public class SmileGenerator{
             int c = b - 30;
             while((b-c)>0){
                 System.out.print(":) ");
-                b--;
+                c++;
             }
             System.out.println("");
             int d = 30;
@@ -66,9 +67,9 @@ public class SmileGenerator{
                 d--;
             }
             System.out.println("");
-            while(c>0){
+            while(a>0){
                 System.out.print(":) ");
-                c--;
+                a--;
             }
         }
         //next line
