@@ -9,7 +9,7 @@ public class waves{     //declare class
         System.out.println("Please enter an integer between 1 and 30");
         Scanner input = new Scanner (System.in);
         int x = input.nextInt();    //inputed integer
-        if(x<1 || x >30){
+        if(x<1 || x >30 ||){
             run = false;    //stops while loop
         }
         System.out.println("For loop: ");   //for loop
