@@ -174,10 +174,17 @@ return z;
   }*/
 
 public static void main(String args[]){
-        for(int j = 2;  j<=5; j++){
-            for(int k = 0; k<j; k++){
-                System.out.println("");
-                for(int i = 0; i<k; i++){
-                System.out.print("b");
+        for(int i = 0; i<=4; i++){
+            for(int j = 0; j<=(i); j++){
+                System.out.print(i);
             }
-}}}}
+            System.out.println("");
+        }
+        for(int i = 5; i>0; i--){
+            for(int k = 0; k<i; k++){
+                System.out.print(10 - i);
+            }
+            System.out.println("");
+        }
+    
+}}
