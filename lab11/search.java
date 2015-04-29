@@ -55,6 +55,7 @@ public class search{
         for(int i = 0; i<50; i++){
             System.out.print(" "+ array2[i]);
         }
+        System.out.println("");
         System.out.println("Enter and int: ");
         Scanner scan = new Scanner(System.in);
         boolean check = true;
